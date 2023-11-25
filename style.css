@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+}
+
+p {
+  color: black;
+}
+
+a {
+    text-decoration: none;
+    color: #3897f0;
+}
+
+.insta-logo {
+  display: block;
+  max-width: 100%; 
+}
+
+.first-text {
+  font-family: Arial, sans-serif;
+  color: #6e6e6e;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.or-text {
+  font-size: 12px;
+  color: #999;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #efefef;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.facebook {
+  width: calc(100% - 0px);
+  padding: 8px;
+  background-color: #3b5998;
+  border: 1px solid #3b5998;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  
+}
+
+.fb-logo {
+  width: 20px;
+  margin-right: 5px; 
+}
+
+.sign-up {
+    width: calc(100% - 20px);
+    padding: 8px;
+    background-color: #3897f0;
+    border: 1px solid #3897f0;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.terms-text {
+    font-size: 13px;
+    color: #999;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.apps-text{
+  font-size: 15px;
+  color: black;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.apps-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.google-play {
+  width: 160px;
+  margin-right: 10px;
+  margin: 0;
+}
+
+.microsoft-logo {
+  width: 110px;
+}
+
+.btn-microsoft {
+  cursor: pointer;
+}
+
+.btn-google-play {
+  cursor: pointer;
+}
+
+.footer{
+  bottom: 0;
+  height: 2.5rem;
+  margin-top: 50px;
+}
+
+.footer ul{
+  text-align: center;
+}
+.footer ul li{
+  display: inline;
+  margin-right: 5px;
+}
+.footer ul li a{
+  text-decoration: none;
+  font-size: 12px; 
+  color: #8e9096;
+}
+
+.footer p{
+  margin: 10px 0;
+  text-align: center;
+  color: #8e9096;
+  font-size: 14px;
+}
